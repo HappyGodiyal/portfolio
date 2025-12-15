@@ -21,11 +21,14 @@ const Contributions = () => {
 
     return (
         <section className="max-w-[38rem] mx-auto px-4 py-5">
-            <h2 className="text-base font-[500] text-[#1A1A1A] mb-4">
+            <h2 className="text-base font-[500] text-[#1A1A1A] mb-3">
                 Cool places I’ve contributed
             </h2>
 
-            <div className="space-y-3">
+            <p className='text-sm font-[400] text-gray-700 text-start'>
+                Coming soon...
+            </p>
+            {/* <div className="space-y-3">
                 {contributions.map((item, index) => (
                     <div
                         key={index}
@@ -51,7 +54,7 @@ const Contributions = () => {
                         </a>
                     </div>
                 ))}
-            </div>
+            </div> */}
         </section>
     )
 }

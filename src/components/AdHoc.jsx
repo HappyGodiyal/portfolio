@@ -33,7 +33,7 @@ const items = [
 const AdHoc = () => {
     return (
         <section className="max-w-[38rem] mx-auto px-4 py-3">
-            <h2 className="text-base font-semibold mb-4">Ad-hoc</h2>
+            <h2 className="text-base font-semibold mb-3">Ad-hoc</h2>
 
             <div className="space-y-3">
                 {items.map((item, i) => (

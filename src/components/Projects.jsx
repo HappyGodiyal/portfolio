@@ -1,45 +1,49 @@
+import projectManagement from '../assets/projectmanagement.png'
+import giphy from '../assets/giphy.png'
+import rabbit from '../assets/rabbit.png'
+import maker from '../assets/maker.webp'
 
 const Projects = () => {
 
     const projects = [
         {
-            title: "Pair-Program",
+            title: "Project Management",
             description:
-                "Discuss, solve, and code together with your friends in real-time.",
-            tech: "Web Sockets (ws), CRDT (Yjs), Livekit, Gemini, Express + TypeScript, Next.js + Tailwind CSS",
-            image: "https://www.nikkhil.tech/_next/image?url=%2FpairProgram.png&w=828&q=75",
-            link: "#",
-        },
-        {
-            title: "Centralised Exchange (Backend)",
-            description:
-                "A centralised exchange using typescript, redis queues, pub subs and postgres",
+                "A project management platform to organize projects, create and assign tasks, and track team progress efficiently & much more..",
             tech:
-                "Redis, Node.js, TypeScript, Express, Singleton Pattern, Postgres, Pub subs",
-            image: "https://www.nikkhil.tech/_next/image?url=%2FcfdExchange.jpeg&w=828&q=75",
-            link: "#",
+                "React.js, Redux, Node.js, Express, Clerk, Inngest, PostgreSQL(Neon), Prisma",
+            image: projectManagement,
+            link: "https://project-mgmt-one.vercel.app",
         },
         {
-            title: "Maker – AI website builder",
+            title: "Rabbit",
+            description:
+                "An online store for trending men’s and women’s clothing with smooth shopping and checkout experience.",
+            tech: "MERN Stack, Paypal Gateway, Jwt, Tailwind CSS, Cloudinary, ",
+            image: rabbit,
+            link: "https://github.com/HappyGodiyal/eKart",
+        },
+        {
+            title: "My Giphy",
+            description:
+                "GIF Search & Sharing Web App",
+            tech: " React Js, Tailwind CSS, Context API, REST API, Javascript",
+            image: giphy,
+            link: "https://happygiphy.netlify.app",
+        },
+        {
+            title: "Maker - AI website builder",
             description:
                 "Make websites using a simple prompt, using AI",
             tech: "Next.js, tRPC, Gemini, Inngest, E2B",
-            image: "https://www.nikkhil.tech/_next/image?url=%2Fmaker.png&w=828&q=75",
-            link: "#",
-        },
-        {
-            title: "MusicBlocks Git Backend",
-            description:
-                "Backend for versioning music projects, similar to Git.",
-            tech: "Node.js, Express, TypeScript, Octokit.js",
-            image: "https://www.nikkhil.tech/_next/image?url=%2FmusicBlocks.png&w=828&q=75",
+            image: maker,
             link: "#",
         },
     ];
 
     return (
         <section className="max-w-[38rem] mx-auto px-4 py-3">
-            <h2 className="text-base font-[500] text-[#1A1A1A] mb-4">Stuff I built</h2>
+            <h2 className="text-base font-[500] text-[#1A1A1A] mb-3">Stuff I built</h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {projects.map((p, i) => (

@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import AdHoc from './components/AdHoc'
 import Projects from './components/Projects'
 import Connect from './components/Connect'
+import Experience from './components/Experience'
 
 const App = () => {
   return (
@@ -13,9 +14,10 @@ const App = () => {
       <ProfileHeader />
       <div className=' max-w-[36rem] mx-auto my-3 h-px bg-gray-100'></div>
       <Contributions />
+      <Experience />
       <Education />
       <Projects />
-      <AdHoc />
+      {/* <AdHoc /> */}
       <Skills />
       <Connect />
       <div className=' max-w-[36rem] mx-auto mt-2 mb-3 h-px bg-gray-100'></div>
