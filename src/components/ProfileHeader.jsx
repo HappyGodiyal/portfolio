@@ -22,7 +22,7 @@ const ProfileHeader = () => {
                                 Happy Godiyal
                             </h1>
                             <p className="text-sm text-gray-500">
-                                Frontend Developer, 23-something year old
+                                Software Developer, 23-something year old
                             </p>
                         </div>
 
