@@ -28,7 +28,7 @@ const Projects = () => {
             title: "JustDrop",
             description:
                 "Price Drop Tracker - Web Scraping & Alert System",
-            tech: "Next Js, Tailwind CSS, Supabase, Resend",
+            tech: "Next Js, Tailwind CSS, Supabase, Firecrawl, Resend",
             image: justdrop,
             link: "https://justdrop.vercel.app",
         },
