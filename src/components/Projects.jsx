@@ -2,6 +2,7 @@ import projectManagement from '../assets/projectmanagement.png'
 import giphy from '../assets/giphy.png'
 import rabbit from '../assets/rabbit.png'
 import maker from '../assets/maker.webp'
+import justdrop from '../assets/justdrop.png'
 
 const Projects = () => {
 
@@ -11,7 +12,7 @@ const Projects = () => {
             description:
                 "A project management platform to organize projects, create and assign tasks, and track team progress efficiently & much more..",
             tech:
-                "React.js, Redux, Node.js, Express, Clerk, Inngest, PostgreSQL(Neon), Prisma",
+                "React.js, Redux, Node.js, Express, Clerk, Inngest, PostgreSQL(Neon), Prisma, Brevo",
             image: projectManagement,
             link: "https://project-mgmt-one.vercel.app",
         },
@@ -22,6 +23,14 @@ const Projects = () => {
             tech: "MERN Stack, Paypal Gateway, Jwt, Tailwind CSS, Cloudinary, ",
             image: rabbit,
             link: "https://github.com/HappyGodiyal/eKart",
+        },
+        {
+            title: "JustDrop",
+            description:
+                "Price Drop Tracker - Web Scraping & Alert System",
+            tech: "Next Js, Tailwind CSS, Supabase, Resend",
+            image: justdrop,
+            link: "https://justdrop.vercel.app",
         },
         {
             title: "My Giphy",
