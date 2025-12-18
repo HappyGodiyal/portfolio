@@ -3,6 +3,7 @@ import giphy from '../assets/giphy.png'
 import rabbit from '../assets/rabbit.png'
 import maker from '../assets/maker.webp'
 import justdrop from '../assets/justdrop.png'
+import signalist from '../assets/signalist.png'
 
 const Projects = () => {
 
@@ -39,6 +40,14 @@ const Projects = () => {
             tech: " React Js, Tailwind CSS, Context API, REST API, Javascript",
             image: giphy,
             link: "https://happygiphy.netlify.app",
+        },
+        {
+            title: "Signalist",
+            description:
+                "Stock Market Predictions & Real time Updates",
+            tech: "Next.js, Inngest, MongoDB, Better Auth, Shadcn, TypeScript, Finnhub",
+            image: signalist,
+            link: "https://signalist-ten-mu.vercel.app/",
         },
         {
             title: "Maker - AI website builder",
